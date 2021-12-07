@@ -4,10 +4,9 @@ import About from "./Components/About";
 import Footer from "./Components/Footer";
 import {Container} from "react-bootstrap";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-
 const App = () =>{
     return(
-        <Container>
+        <Container fluid className="p-0">
             <Router>
             <Header />
             <Container style={{marginTop:"80px"}}>

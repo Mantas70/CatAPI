@@ -5,7 +5,7 @@ const About = () =>{
             <Card.Header as="h5"></Card.Header>
             <Card.Body>
                 <Card.Title>Title</Card.Title>
-                <Card.Text>Cats not found</Card.Text>
+                <Card.Text>Cat API</Card.Text>
             </Card.Body>
         </Card>
     )
